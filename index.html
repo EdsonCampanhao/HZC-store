@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HZC |home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="/flex-e-grid-main/flex-e-grid-main/assets/css/reset.css">
+    <link rel="stylesheet" href="/flex-e-grid-main/flex-e-grid-main/assets/css/style.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <button class="cabecalho__menu" id="menu" aria-label="menu"><i></i></button>
+        <img class="cabecalho__logo" src="/flex-e-grid-main/flex-e-grid-main/assets/img/logo.svg" alt="logotipo hzc">
+        <p class="cabecalho__perfil">Bruno Lopes</p>
+        <button class="cabecalho__notificacao" aria-label="notificacao"><i></i></button>
+    </header>
+    <nav class="menu-lateral" id="menu-lateral">
+        <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/logo.svg" alt="logotipo hgv" class="menu-lateral__logo">
+        <div id="menu-options">
+        <a href="#inicio-section" class="menu-lateral__link menu-lateral__link--ativo" id="menu-lateral__link--inicio">inicio</a>
+        <a href="#videos-section" class="menu-lateral__link" id="menu-lateral__link--videos">videos</a>
+        <a href="#picos-section" class="menu-lateral__link" id="menu-lateral__link--picos">picos</a>
+        <a href="#" class="menu-lateral__link" id="menu-lateral__link--integrantes">integrantes</a>
+        <a href="#camisas-section" class="menu-lateral__link" id="menu-lateral__link--camisa">camisas</a>
+        <a href="#" class="menu-lateral__link" id="menu-lateral__link--pintura">pinturas</a>
+        </div>
+    </nav>
+    <main class="principal">
+
+
+        <h2 class="titulo-pagina" id="inicio-section">inicio</h2>
+        <article class="cartao cartao--principal  video-destaque">
+            <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/banner-mobile_1.png" alt=""
+                class="cartao-imagem cartao-imagem-mobile">
+            <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/banner_1.png" alt=""
+                class="cartao-imagem cartao-imagem-desktop">
+            <div class="cartao-conteudo">
+                <p class="cartao-destaque">Video em destaque</p>
+                <h3 class="cartao-titulo">HZC- Título</h3>
+                <p class="cartao-perfil"> bruno lopes</p>
+                <p class="cartao-info cartao-info-tempo" id="cartao-tempo-destaque">33 minutos</p>
+                <p class="cartao-info cartao-info-visualizacao" id="cartao-visualizacao-destaque">35visualizações</p>
+                <button class="cartao-info-botao cartao-botao-destaque botao--play">assistir agora</button>
+            </div>
+        </article>
+
+        <artilce class="catao cartao-recente videos-recentes">
+            <h3 class="cartao-titulos">videos recentes</h3>
+            <a href="#" class="cartao-link">ver todos</a>
+            <ul class="cartao-lista">
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/miniatura_1.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">HZC-Love Machine</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/miniatura_1.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">HZC-Love Machine</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/miniatura_1.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">HZC-Love Machine</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/miniatura_1.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">HZC-Love Machine</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/miniatura_1.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">HZC-Love Machine</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+            </ul>
+
+        </artilce>
+
+        <section id="videos-section" class="secao exposicao-horizontal">
+
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/video_1.png" alt="video" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> bruno lopes</p>
+                    <h3 class="cartao-titulo">HZC- Título</h3>
+                    <p class="cartao-info cartao-info-tempo">33 minutos</p>
+
+                    <button class="cartao-info-botao   botao--play" aria-label="assistir agora"></button>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/video_2.png" alt="video" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> bruno lopes</p>
+                    <h3 class="cartao-titulo">HZC- Título</h3>
+                    <p class="cartao-info cartao-info-tempo">33 minutos</p>
+
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/video_3.png" alt="video" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> bruno lopes</p>
+                    <h3 class="cartao-titulo">HZC- Título</h3>
+                    <p class="cartao-info cartao-info-tempo">33 minutos</p>
+
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/video_4.png" alt="video" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> bruno lopes</p>
+                    <h3 class="cartao-titulo">HZC- Título</h3>
+                    <p class="cartao-info cartao-info-tempo">33 minutos</p>
+
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+                </div>
+            </article>
+            <h3 class="titulo-secao titulo-secao-produtos" id="camisas-section">Coleções</h3>
+        </section>
+
+        <artilce class="catao cartao-recente produtos-recentes">
+            <h3 class="cartao-titulos ">Novas artes</h3>
+            <a href="#" class="cartao-link">ver todos</a>
+            <ul class="cartao-lista">
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/camisa-miniatura-lado_1.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img//camisa-miniatura-lado_2.jpg"
+                        alt="thumbnail" class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/camisa-miniatura-lado_3.webp"
+                        alt="thumbnail" class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/camisa-miniatura-lado_2.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/camisa-miniatura-lado_1.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/produto_1.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/camisa-miniatura-lado_2.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">sk8-colection</h4>
+                    <p class="cartao-item-perfil">Antonio Tebyriça</p>
+                    </img>
+                </li>
+            </ul>
+        </artilce>
+
+        <article class="cartao cartao--principal destaque-produto">
+            <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/banner_2.png" alt="" class="cartao-imagem">
+            <div class="cartao-conteudo">
+                <p class="cartao-destaque">Nova Arte</p>
+                <h3 class="cartao-titulo">Only Zikas- Lagoa Dompa Club</h3>
+                <p class="cartao-perfil"> joão zms</p>
+                <p class="cartao-info cartao-info-preco" id="cartao-tempo-destaque">33,90</p>
+                <p class="cartao-info cartao-info-visualizacao" id="cartao-visualizacao-destaque">53visualizações</p>
+                <button class="cartao-info-botao cartao-botao-destaque botao--carrinho">comprar agora</button>
+            </div>
+        </article>
+
+        <h3 class="titulo-secao titulo-camisas-recentes ">Camisas Recentes</h3>
+
+        <section class="secao secao-produtos ">
+
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/produto_1.png" alt="video"
+                    class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> André Soarez</p>
+                    <h3 class="cartao-titulo">IBM</h3>
+                    <p class="cartao-info cartao-info-preco">33,50</p>
+
+                    <button class="cartao-info-botao  botao--carrinho" aria-label="assistir agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/produto_2.png" alt="video"
+                    class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> Bruno Lopes</p>
+                    <h3 class="cartao-titulo">Huflez Crew Philosophy Club</h3>
+                    <p class="cartao-info cartao-info-preco">39,99</p>
+
+                    <button class="cartao-info-botao  botao--carrinho" aria-label="assistir agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/produto_3.png" alt="video"
+                    class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> Luiza Sampaio</p>
+                    <h3 class="cartao-titulo">Corujita Noturna</h3>
+                    <p class="cartao-info cartao-info-preco">39,50</p>
+
+                    <button class="cartao-info-botao  botao--carrinho" aria-label="assistir agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/produto_4.png" alt="video"
+                    class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> Bruno lopes</p>
+                    <h3 class="cartao-titulo">GGG- Gatin G Gorro</h3>
+                    <p class="cartao-info cartao-info-preco">33,50</p>
+
+                    <button class="cartao-info-botao  botao--carrinho" aria-label="assistir agora"></button>
+                </div>
+            </article>
+
+        </section>
+
+
+        <artilce id="pico-section" class="catao cartao-recente picos-recentes">
+            <h3 class="cartao-titulos ">lugares mais visitados</h3>
+            <a href="#" class="cartao-link">ver todos</a>
+            <ul class="cartao-lista">
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/local_pico_1.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">Wallride da FGP</h4>
+                    <p class="cartao-item-perfil">Julia Fonseca</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/local_pico_3.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo"> Pista do Horto- Fonseca</h4>
+                    <p class="cartao-item-perfil">Julia Fonseca</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/miniatura_4.png" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">Praça Tiradentes- São Gonçalo</h4>
+                    <p class="cartao-item-perfil">Julia Fonseca</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/local_pico_4.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">Skate Park- São Francisco</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/local_pico_1.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">Wallride - Av. 40 de Maio</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+
+                <li class="cartao-item">
+                    <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/local_pico_3.jpg" alt="thumbnail"
+                        class="cartao-item-thumbnail">
+                    <h4 class="cartao-item-titulo">Pista do Horto- Itamaratí</h4>
+                    <p class="cartao-item-perfil">Bruno Lopes</p>
+                    </img>
+                </li>
+            </ul>
+        </artilce>
+
+
+
+
+        <article class="cartao cartao--principal destaque-pico">
+            <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/mapa-picos.png" alt="" class="cartao-imagem">
+
+
+        </article>
+
+        <h3 class="titulo-secao titulo-secao-pico">Picos</h3>
+
+        <div class="secao secao-picos " id="picos-section">
+
+            <section class="secao secao-picos ">
+
+            </section>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/artigo_1.png" alt="video" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> bruno lopes</p>
+                    <h3 class="cartao-titulo">Gap do Itaú</h3>
+
+                    <p class="cartao-info cartao-info-visualizacao">35visualizações</p>
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/local_pico_2.avif" alt="video"
+                    class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> Thais Fonseca</p>
+                    <h3 class="cartao-titulo">Gap com mureta-centro</h3>
+
+                    <p class="cartao-info cartao-info-visualizacao">35visualizações</p>
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img/artigo_3.png" alt="video" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> bruno lopes</p>
+                    <h3 class="cartao-titulo">Rampa da entrada tunel Rebouças</h3>
+
+                    <p class="cartao-info cartao-info-visualizacao">35visualizações</p>
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+            </article>
+            <article class="cartao">
+                <img src="/flex-e-grid-main/flex-e-grid-main/assets/img//local_pico_4.jpg" alt="video"
+                    class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil"> Luiza Sampaio</p>
+                    <h3 class="cartao-titulo">Skate Park- São Francisco</h3>
+
+                    <p class="cartao-info cartao-info-visualizacao">35visualizações</p>
+                    <button class="cartao-info-botao  botao--play" aria-label="assistir agora"></button>
+                </div>
+            </article>
+
+
+
+
+
+
+    </main>
+
+
+
+    <script src="/flex-e-grid-main/flex-e-grid-main/assets/js/main.js"></script>
+</body>
+
+</html>
